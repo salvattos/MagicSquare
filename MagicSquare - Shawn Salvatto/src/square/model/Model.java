@@ -160,7 +160,6 @@ public class Model {
 				return false;
 			}
 		}
-		System.out.println("won");
 		return true;
 	}
 
@@ -170,7 +169,6 @@ public class Model {
 		// if the user moves the center tile out they lose automatically
 		for (Tile t : puzzle) {
 			if (t.isCenter && !t.isShown) {
-				System.out.println("Lost");
 				return true;
 			}
 		}
@@ -193,7 +191,6 @@ public class Model {
 		}
 		
 		if(isLost) {
-			System.out.println("Lost");
 			return true;
 		}
 		

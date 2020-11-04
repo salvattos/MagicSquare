@@ -42,7 +42,6 @@ public class Main {
 				new ExitController(app).exit();
 			}
 		});
-		//github test
 		app.setVisible(true);
 		
 	}
