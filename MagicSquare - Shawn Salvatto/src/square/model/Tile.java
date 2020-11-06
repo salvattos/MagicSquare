@@ -4,12 +4,13 @@ public class Tile {
 	public final int sideLength = 100;
 	int val;
 	boolean isCenter;
-	boolean isShown = true;
+	boolean isShown;
 	int row;
 	int col;
 	
 	public Tile(int val) {
 		this.val = val;
+		isShown = true;
 	}
 	
 	public boolean isCenter() {return isCenter;}
@@ -47,10 +48,6 @@ public class Tile {
 		}
 		
 		return false;
-	}
-
-	public void combine(MoveType dir, Tile opTile) {
-		this.isShown = false;	
 	}
 
 	public void subtract(Tile tile) {

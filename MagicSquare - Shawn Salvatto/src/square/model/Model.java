@@ -10,7 +10,7 @@ public class Model {
 	boolean gameLost;
 
 	public Model() {
-
+		
 	}
 
 	public void setPuzzle(Puzzle p) {
