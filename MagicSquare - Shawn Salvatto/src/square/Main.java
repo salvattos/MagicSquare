@@ -43,7 +43,7 @@ public class Main {
 			}
 		});
 		app.setVisible(true);
-		
+		//testsug
 	}
 
 }
